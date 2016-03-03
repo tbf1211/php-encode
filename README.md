@@ -1,2 +1,2 @@
 # php-encode
-php的简单加密，学习
+php鐨勭畝鍗曞姞瀵嗭紝瀛︿範
