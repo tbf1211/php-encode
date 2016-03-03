@@ -40,7 +40,10 @@ header("Content-type: text/html; charset=utf-8");
  	return base64_decode($tmp);
  }
 
- $string = 'tbf1211';
- $myEn = myEncode(100, 'fuck');
+ $string = <<<INFO
+ 'http://zhidao.baidu.com/link?url=xcvdO1qQ7qCupY52idgJqCn3gNQ58WEPLiqiueKSfl2OzKUlhpcR392K9UdZbSVsRRsO1FBSf18vmKMP-WfBv_'
+ 'tbf1211'
+ INFO;
+ $myEn = myEncode($string, 'fuck');
  $myDe = myDecode($myEn, 'fuck');
  var_dump($myEn, $myDe);
